@@ -1,0 +1,97 @@
+{
+  "v1_raw": {
+    "version": "v1_raw",
+    "num_samples": 1599,
+    "num_features": 12,
+    "file_size_kb": 91.41,
+    "missing_values": 0,
+    "columns": [
+      "fixed acidity",
+      "volatile acidity",
+      "citric acid",
+      "residual sugar",
+      "chlorides",
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "density",
+      "pH",
+      "sulphates",
+      "alcohol",
+      "quality"
+    ],
+    "quality_distribution": {
+      "3": 10,
+      "4": 53,
+      "5": 681,
+      "6": 638,
+      "7": 199,
+      "8": 18
+    }
+  },
+  "v2_clean": {
+    "version": "v2_clean",
+    "num_samples": 985,
+    "num_features": 12,
+    "file_size_kb": 211.21,
+    "missing_values": 0,
+    "columns": [
+      "fixed acidity",
+      "volatile acidity",
+      "citric acid",
+      "residual sugar",
+      "chlorides",
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "density",
+      "pH",
+      "sulphates",
+      "alcohol",
+      "quality"
+    ],
+    "quality_distribution": {
+      "3": 2,
+      "4": 32,
+      "5": 415,
+      "6": 411,
+      "7": 116,
+      "8": 9
+    }
+  },
+  "v3_features": {
+    "version": "v3_features",
+    "num_samples": 985,
+    "num_features": 18,
+    "file_size_kb": 303.25,
+    "missing_values": 0,
+    "columns": [
+      "fixed acidity",
+      "volatile acidity",
+      "citric acid",
+      "residual sugar",
+      "chlorides",
+      "free sulfur dioxide",
+      "total sulfur dioxide",
+      "density",
+      "pH",
+      "sulphates",
+      "alcohol",
+      "quality",
+      "total_acidity",
+      "alcohol_to_density",
+      "sulphates_to_alcohol",
+      "acidity_ratio",
+      "free_to_total_sulfur",
+      "is_good_quality"
+    ],
+    "quality_distribution": {
+      "3": 2,
+      "4": 32,
+      "5": 415,
+      "6": 411,
+      "7": 116,
+      "8": 9
+    },
+    "good_quality_count": 125,
+    "regular_quality_count": 860
+  }
+}
