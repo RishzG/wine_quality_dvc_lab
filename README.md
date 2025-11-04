@@ -253,16 +253,16 @@ dvc checkout
 ### Key Improvements
 
 **Data Quality (v1.0 → v2.0):**
-- ✅ Removed 240 duplicate samples
-- ✅ Removed 142 outlier samples using IQR method
-- ✅ Normalized all features (zero mean, unit variance)
-- ✅ **38.4% reduction in samples** while improving data quality
+-  Removed 240 duplicate samples
+-  Removed 142 outlier samples using IQR method
+-  Normalized all features (zero mean, unit variance)
+-  **38.4% reduction in samples** while improving data quality
 
 **Feature Engineering (v2.0 → v3.0):**
-- ✅ Added 6 domain-specific derived features
-- ✅ **50% increase in features** for better model performance
-- ✅ Created binary classification target (is_good_quality)
-- ✅ Maintained data quality from v2.0
+-  Added 6 domain-specific derived features
+-  **50% increase in features** for better model performance
+-  Created binary classification target (is_good_quality)
+-  Maintained data quality from v2.0
 
 ### Visualizations
 
@@ -316,15 +316,5 @@ This project uses Google Cloud Storage as the DVC remote. To set up:
    ```
 
 ---
-
-## Acknowledgments
-
-- **Dataset Source:** UCI Machine Learning Repository
-- **Instructor:** Professor Ramin Mohammadi
-- **Lab Reference:** [DVC Lab 1 - ML with Ramin](https://www.mlwithramin.com/blog/dvc-lab1)
-
-
-
-
 
 **Last Updated:** November 2024
