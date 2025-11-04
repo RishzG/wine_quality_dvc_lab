@@ -1,0 +1,5 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = gs://dvc-wine-rg
+    credentialpath = C:\Users\rishi\Downloads\dvc-wine-lab-477203-4fe4bd01b6b7.json
